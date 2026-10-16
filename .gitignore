@@ -1,0 +1,6 @@
+# Node build dependencies — only needed on your computer, never uploaded.
+node_modules/
+
+# macOS / Windows cruft
+.DS_Store
+Thumbs.db

@@ -1,0 +1,14 @@
+{
+  "name": "dental-clinic-website",
+  "version": "1.0.0",
+  "description": "Fully static dental clinic website. No backend, no database. Edit clinic-config.js to change all site content.",
+  "private": true,
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i css/input.css -o css/app.css --minify",
+    "watch": "npx @tailwindcss/cli -i css/input.css -o css/app.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.0",
+    "tailwindcss": "^4.0.0"
+  }
+}

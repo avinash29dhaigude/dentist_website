@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Static SEO defaults; main.js overrides these from clinic-config.js -->
+  <title>Your Dental Clinic | Trusted Dentist in Your City</title>
+  <meta name="description" content="Gentle and modern dental care in Your City. Book an appointment with Your Dental Clinic — dental check-ups, root canal, braces, implants & more.">
+  <link rel="canonical" href="https://www.yourdomain.com/">
+
+  <!-- Open Graph (updated from config at runtime too) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Your Dental Clinic | Dentist in Your City">
+  <meta property="og:description" content="Gentle and modern dental care in Your City.">
+  <meta property="og:image" content="images/dentist.jpg">
+  <meta property="og:url" content="https://www.yourdomain.com/">
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="stylesheet" href="css/app.css">
+
+  <!-- Uncomment after you verify your site with Google Search Console:
+  <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE" />
+  <meta name="robots" content="index, follow">
+  -->
+</head>
+<body data-page="home">
+
+  <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-full focus:bg-teal-700 focus:px-4 focus:py-2 focus:text-white">Skip to main content</a>
+
+  <div id="site-header"></div>
+
+  <main id="main">
+
+    <!-- Hero -->
+    <div id="hero-clinic"></div>
+
+    <!-- Services preview -->
+    <div id="home-services"></div>
+
+    <!-- Why choose us -->
+    <div id="home-whychoose"></div>
+
+    <!-- Doctor intro -->
+    <div id="home-doctor"></div>
+
+    <!-- Testimonials -->
+    <div id="home-reviews"></div>
+
+    <!-- FAQs -->
+    <div id="home-faq"></div>
+
+    <!-- Contact strip -->
+    <div id="home-contact"></div>
+
+  </main>
+
+  <div id="site-footer"></div>
+  <div id="floating-actions"></div>
+
+  <script src="clinic-config.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/pages/home.js" data-page="home" defer></script>
+</body>
+</html>
