@@ -95,10 +95,10 @@ window.CLINIC_CONFIG = {
   // Numbers shown on the About page as a stats bar. Use REAL figures —
   // these are examples that you should replace before going live.
   STATS: [
-    { value: "12+", label: "Years of experience" },
-    { value: "5000+", label: "Happy patients" },
+    { value: "15+", label: "Years of experience" },
+    { value: "50000+", label: "Happy patients" },
     { value: "15+", label: "Treatments offered" },
-    { value: "4.9/5", label: "Google rating" }
+    
   ],
 
   // Public clinic contact email.
@@ -280,7 +280,7 @@ window.CLINIC_CONFIG = {
         "Use a desensitising toothpaste if teeth feel sensitive",
         "Keep your next 6-monthly appointment"
       ],
-      image: "images/services/dental-checkup-and-cleaning.svg",
+      image: "images/services/dental-checkup-and-cleaning.png",
       faqs: [
         { q: "Does scaling and polishing hurt?", a: "Usually not. Most patients feel only mild vibration. We use modern ultrasonic scalers and can apply a numbing gel if you feel sensitive." },
         { q: "How often should I visit the dentist?", a: "Every 6 months is ideal for most people. If you have gum disease or a higher risk of cavities, we may recommend 3–4 monthly visits." },
@@ -307,7 +307,7 @@ window.CLINIC_CONFIG = {
         "Use a straw for colourful drinks if possible",
         "Touch-ups after 6–12 months may be advised to maintain the shade"
       ],
-      image: "images/services/teeth-whitening.svg",
+      image: "images/services/teeth-whitening.jpg",
       faqs: [
         { q: "Is teeth whitening safe?", a: "Yes when performed by a dental professional. We protect your gums and use controlled-strength gels suitable for your enamel." },
         { q: "Will whitening damage sensitive teeth?", a: "Some temporary sensitivity is common and settles within 1–2 days. We provide a desensitising paste to manage it." },
@@ -334,7 +334,7 @@ window.CLINIC_CONFIG = {
         "Keep the area clean — gentle brushing and rinsing",
         "Book follow-up appointments as advised"
       ],
-      image: "images/services/root-canal-treatment.svg",
+      image: "images/services/root-canal-treatment.png",
       faqs: [
         { q: "Is root canal treatment painful?", a: "With modern anaesthesia, most patients feel little to no pain during the procedure. Any soreness after settles in a couple of days." },
         { q: "Why do I need a crown after RCT?", a: "After a root canal a tooth becomes brittle. A crown protects it from fracturing and restores full chewing strength." },
@@ -361,7 +361,7 @@ window.CLINIC_CONFIG = {
         "Wear aligners 20–22 hours a day as instructed",
         "Keep all adjustment visits without fail"
       ],
-      image: "images/services/braces-and-aligners.svg",
+      image: "images/services/braces-and-aligners.jpg",
       faqs: [
         { q: "What is the best age for braces?", a: "An orthodontic evaluation is best around age 7–9, but adults can be treated successfully at any age if gums and bone are healthy." },
         { q: "Are clear aligners better than metal braces?", a: "Aligners are discreet and removable, but suitability depends on your case. We examine and recommend the most effective option for you." },
@@ -388,7 +388,7 @@ window.CLINIC_CONFIG = {
         "Attend all healing and crown-fitting visits",
         "Brush and floss carefully; regular 6-monthly check-ups"
       ],
-      image: "images/services/dental-implants.svg",
+      image: "images/services/dental-implants.jpg",
       faqs: [
         { q: "Are implants painful?", a: "Placed under local anaesthesia, the procedure is usually comfortable. Mild soreness for a few days after is normal and settles with medication." },
         { q: "How long do implants last?", a: "With good oral hygiene and regular check-ups, implants can last 20+ years or a lifetime." },
@@ -415,7 +415,7 @@ window.CLINIC_CONFIG = {
         "Bring your child every 6 months for a check-up",
         "Celebrate each visit so it stays a positive experience"
       ],
-      image: "images/services/kids-dentistry.svg",
+      image: "images/services/kids-dentistry.jpg",
       faqs: [
         { q: "At what age should a child first see the dentist?", a: "Ideally by their first birthday or when the first tooth appears — whichever comes first." },
         { q: "How do I prepare my child for the visit?", a: "Keep it positive and simple — say a dentist will count their teeth and make them shiny. Avoid words like pain or injection." },
@@ -442,7 +442,7 @@ window.CLINIC_CONFIG = {
         "Use floss threaders to clean under the bridge",
         "Return for check-up so we can verify the fit and gum health"
       ],
-      image: "images/services/crowns-and-bridges.svg",
+      image: "images/services/crowns-and-bridges.jpg",
       faqs: [
         { q: "How long do crowns last?", a: "With good care, crowns typically last 10–15 years or longer. Grinding and poor hygiene can shorten their life." },
         { q: "Will the crown match my teeth colour?", a: "Yes — all-ceramic crowns are custom-shaded to blend with your natural teeth." },
@@ -469,7 +469,7 @@ window.CLINIC_CONFIG = {
         "Eat soft foods and avoid hot meals on the first day",
         "Take prescribed medicines as directed and avoid smoking for the first week"
       ],
-      image: "images/services/tooth-extraction.svg",
+      image: "images/services/tooth-extraction.jpg",
       faqs: [
         { q: "Is tooth extraction painful?", a: "The area is numbed completely before the procedure, so you feel only pressure. Any discomfort after is managed with painkillers." },
         { q: "When can I eat normally after extraction?", a: "Soft foods from day 2, and most people return to normal eating within a week." },
@@ -560,18 +560,10 @@ window.CLINIC_CONFIG = {
           "A valid photo ID (for your patient record)",
           "Your previous dental records or X-rays, if any",
           "A list of medicines you currently take",
-          "Your health insurance card / details, if you will claim",
           "Questions you want to ask — we love questions!"
         ]
       },
-      {
-        title: "Insurance & Billing",
-        body:
-          "We accept cash, UPI and major cards. For insurance, we provide itemised bills " +
-          "and prescriptions that you can claim with your insurer. Payment is made after " +
-          "treatment; for larger procedures a small part may be requested in advance, " +
-          "which is always reflected in your written estimate."
-      },
+      
       {
         title: "Dental Emergency?",
         body:
