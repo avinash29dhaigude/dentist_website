@@ -106,12 +106,12 @@ window.CLINIC_CONFIG = {
 
   // Phone number shown on the site. Use international format for calls; the
   // browser converts it into a click-to-call link.
-  PHONE_NUMBER: "+91-9561770504",
+  PHONE_NUMBER: "+91-0000000000",
 
   // Number used for WhatsApp (with country code, no "+", e.g. "91900000000").
   // Placeholder format is shown with dashes; remove them or keep them —
   // the site cleans them automatically.
-  WHATSAPP_NUMBER: "+91-9561770504",
+  WHATSAPP_NUMBER: "+91-0000000000",
 
   // Optional: a number to display separately from the click-to-call number.
   // Leave empty string "" to just show PHONE_NUMBER.
